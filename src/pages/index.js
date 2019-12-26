@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 export default class Home extends React.Component {
   render() {
@@ -12,6 +13,7 @@ export default class Home extends React.Component {
       >
         <NavBar />
 
+        {/* Bloco 1 - Intro */}
         <div
           className="container-fluid"
           style={{
@@ -44,13 +46,12 @@ export default class Home extends React.Component {
                 <button type="button" class="btn btn-outline-light">
                   Download
                 </button>
-                <button type="button" class="btn btn-outline-light">
-                  Sobre
-                </button>
               </div>
             </div>
           </div>
         </div>
+
+        {/* Bloco 2 */}
 
         <div
           className="container-fluid"
@@ -74,6 +75,10 @@ export default class Home extends React.Component {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam.
                 </text>
+              </p>
+
+              <p>
+                <h5>Imagem</h5>
               </p>
               <p>
                 <h5>Safety</h5>
@@ -103,23 +108,7 @@ export default class Home extends React.Component {
           </div>
         </div>
 
-        <div
-          className="container-fluid"
-          style={{
-            height: "600px",
-            width: "100wv",
-            backgroundColor: "green"
-          }}
-        >
-          <div className="row justify-content-center">
-            <div
-              className="col text-center"
-              style={{
-                position: "absolute"
-              }}
-            />
-          </div>
-        </div>
+        {/* Bloco 3 */}
 
         <div
           className="container-fluid"
@@ -140,12 +129,138 @@ export default class Home extends React.Component {
                 </text>
               </p>
 
-              <div class="col-sm">One of three columns</div>
-              <div class="col-sm">One of three columns</div>
-              <div class="col-sm">One of three columns</div>
+              <div class="col">
+                <p>
+                  <h6>Analytics</h6>
+                  <text>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </text>
+                </p>
+              </div>
+
+              <div class="col">
+                <p>
+                  <h6>Tutorials</h6>
+                  <text>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </text>
+                </p>
+              </div>
+
+              <div class="col">
+                <p>
+                  <h6>Support</h6>
+                  <text>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam.
+                  </text>
+                </p>
+              </div>
             </div>
           </div>
         </div>
+
+        {/* Bloco 3 */}
+
+        <div
+          className="container-fluid"
+          style={{
+            height: "100hv",
+            width: "100wv",
+            backgroundColor: "green"
+          }}
+        >
+          <div class="container">
+            <div class="row text-center">
+              <p>
+                <h1>International</h1>
+                <text>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam.
+                </text>
+              </p>
+
+              <div class="col">
+                <div className="row">
+                  <div class="col">
+                    <p>
+                      <h6>International</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+
+                    <p>
+                      <h6>Experimental</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+
+                    <p>
+                      <h6>Relaxing</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <p>
+                  <h6>Imagem</h6>
+                </p>
+              </div>
+
+              <div class="col">
+                <div className="row">
+                  <div class="col">
+                    <p>
+                      <h6>Beloved</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+
+                    <p>
+                      <h6>Rapid</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+
+                    <p>
+                      <h6>Magical</h6>
+                      <text>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua. Ut enim ad minim veniam.
+                      </text>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <Footer />
       </div>
     );
   }
