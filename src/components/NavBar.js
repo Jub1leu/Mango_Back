@@ -2,16 +2,9 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <a className="navbar-brand" href="../pages/index.js">
-        <img
-          src="../assets/mango.svg"
-          width="30"
-          height="30"
-          class="d-inline-block align-top"
-          alt=""
-        />
-        ManGO
+        ManGO!
       </a>
       <button
         className="navbar-toggler"
